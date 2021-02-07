@@ -1,0 +1,3 @@
+include ':titleview'
+include ':app'
+rootProject.name = "TitleView"
