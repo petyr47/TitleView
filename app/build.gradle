@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.aneke.peter.titleview"
+        applicationId "com.aneke.peter.sample"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
@@ -44,6 +44,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     //titleview
-    implementation 'com.github.petyr47:TitleView:0.0.1-alpha01'
+    implementation 'com.github.petyr47:TitleView:0.0.1-alpha02'
 
 }

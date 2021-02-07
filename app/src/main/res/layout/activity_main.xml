@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.aneke.peter.sample.MainActivity">
 
     <com.aneke.peter.titleview.TitleView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:title="Test Display"
+        app:backgroundColor="@color/purple_200"
+        app:textColor="@color/black"
+        app:showBackButton="true"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
