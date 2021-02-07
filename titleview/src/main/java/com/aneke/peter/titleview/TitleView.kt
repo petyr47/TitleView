@@ -44,7 +44,7 @@ class TitleView @JvmOverloads constructor(context: Context, attrs: AttributeSet?
                 context,
                 android.R.color.white))
             titleText = attrsSet.getString(R.styleable.TitleView_title) ?: ""
-            drawElements()
+           // drawElements()
             attrsSet.recycle()
         }
     }
