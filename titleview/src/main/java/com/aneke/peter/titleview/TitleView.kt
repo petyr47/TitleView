@@ -44,15 +44,15 @@ class TitleView @JvmOverloads constructor(context: Context, attrs: AttributeSet?
                 context,
                 android.R.color.white))
             titleText = attrsSet.getString(R.styleable.TitleView_title) ?: ""
-           // drawElements()
+            drawElements()
             attrsSet.recycle()
         }
     }
 
 
     private fun drawElements() {
-        frame.setBackgroundColor(ContextCompat.getColor(context, backgroundFrameColor))
-        title.setTextColor(ContextCompat.getColor(context, textColor))
+        frame.setBackgroundColor(backgroundFrameColor)
+        title.setTextColor(textColor)
         title.text = titleText
         if (!showBackButton) {
             back_btn.visibility = View.GONE
